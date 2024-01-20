@@ -173,8 +173,8 @@ footer {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
 
-  .ligth {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+  .light {
+    --bg-url: var(--bg-url)
   }
 }
 
