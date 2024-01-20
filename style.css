@@ -82,11 +82,11 @@ body * {
 }
 
 .light #switch button {
- animation: slide-in 0.2s forwards;
+  animation: slide-in 0.2s forwards;
 }
 
 #switch button:hover {
-outline: 8px solid var(--highligth-color);
+  outline: 8px solid var(--highligth-color);
 }
 
 #switch span {
@@ -174,26 +174,26 @@ footer {
   }
 
   .light {
-    --bg-url: var(--bg-url)
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
 
-
 /* animation*/
 @keyframes slide-in {
-from {
-left: 0;
-}
-to {
-left: 50%;
-} }
-
- @keyframes slide-back {
-from{
-  left: 50%;
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
 }
 
-to{
-left: 0;
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+
+  to {
+    left: 0;
+  }
 }
- }
